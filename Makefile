@@ -1,3 +1,7 @@
+# Copyright (C) 2020 Francisco Vial - All Rights Reserved
+# You may use, distribute and modify this code under the
+# terms of the WTFPL.
+
 CC      = g++
 CFLAGS  = -Wall -O3 -std=c++0x -lgmp
 BUILD   = multiply.o

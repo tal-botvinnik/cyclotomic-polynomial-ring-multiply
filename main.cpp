@@ -1,5 +1,10 @@
+/* Copyright (C) 2020 Francisco Vial - All Rights Reserved
+ * You may use, distribute and modify this code under the
+ * terms of the WTFPL.
+ */
+
 #include "./main.hpp"
-#include <chrono>
+#include <chrono> // NOLINT [build/c++11]
 #include <iostream>
 
 using std::cout;
