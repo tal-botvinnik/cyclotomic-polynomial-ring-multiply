@@ -10,5 +10,4 @@
 #define logQ 80
 #define BITS 1024
 
-
 void multi(gmp_randstate_t, int);
