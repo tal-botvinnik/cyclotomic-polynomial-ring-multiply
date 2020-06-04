@@ -9,7 +9,7 @@ clean:
 	rm -f $(BUILD)
 
 lint:
-	cpplint --recursive --extensions=hpp,cpp *
+	cpplint --recursive --extensions=c,h,hpp,cpp *
 
 multiply: $(SOURCE)
 	$(CC) $(SOURCE) -o $(BUILD) $(CFLAGS)

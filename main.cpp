@@ -1,6 +1,6 @@
-#include <stdint.h>
+#include "./main.hpp"
 #include <chrono>
-#include "include/main.h"
+#include <iostream>
 
 using std::cout;
 using std::endl;

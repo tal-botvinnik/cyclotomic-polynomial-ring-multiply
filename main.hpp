@@ -1,9 +1,10 @@
-#include <iostream>
+#ifndef MAIN_HPP_
+#define MAIN_HPP_
+
 #include <stdlib.h>
 #include <math.h>
 #include <stdio.h>
 #include <gmp.h>
-#include <chrono>
 
 #define N 1024
 #define M 16
@@ -11,3 +12,5 @@
 #define BITS 1024
 
 void multi(gmp_randstate_t, int);
+
+#endif  // MAIN_HPP_
