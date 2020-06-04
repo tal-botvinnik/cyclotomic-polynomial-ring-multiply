@@ -2,9 +2,7 @@ CC      = g++
 CFLAGS  = -Wall -O3 -std=c++0x -lgmp
 RM      = rm -f
 
-default: all
+default: multiply
 
-all: paralelotopo
-
-paralelotopo: main.cpp
+multiply: main.cpp
 	$(CC) main.cpp -o main.o $(CFLAGS)
